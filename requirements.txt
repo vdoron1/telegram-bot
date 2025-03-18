@@ -7,6 +7,7 @@ faiss-cpu
 PyPDF2
 tiktoken
 
+python-docx
 
 together
 google-api-python-client
