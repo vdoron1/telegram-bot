@@ -8,7 +8,7 @@ PyPDF2
 tiktoken
 
 python-docx
-
+sentence_transformers
 together
 google-api-python-client
 
