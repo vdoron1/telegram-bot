@@ -6,3 +6,8 @@ openai
 faiss-cpu
 PyPDF2
 tiktoken
+
+
+together
+google-api-python-client
+
