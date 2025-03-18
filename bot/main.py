@@ -13,6 +13,9 @@ from document_handler import create_vector_db
 load_dotenv()
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
+
+if not TELEGRAM_BOT_TOKEN:
+    raise ValueError("❌ Ошибка: Не найден TELEGRAM_BOT_TOKEN в переменных среды!")
 # Создаём бота
 bot = Bot(token=TELEGRAM_BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
