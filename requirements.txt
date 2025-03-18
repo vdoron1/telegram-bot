@@ -1,0 +1,8 @@
+aiogram
+python-dotenv
+langchain
+langchain-community
+openai
+faiss-cpu
+PyPDF2
+tiktoken
