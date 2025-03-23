@@ -1,0 +1,4 @@
+# bot-service/requirements.txt
+aiogram
+python-dotenv
+aiohttp

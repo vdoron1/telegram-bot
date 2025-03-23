@@ -1,0 +1,11 @@
+# file-service/requirements.txt
+fastapi
+uvicorn
+python-multipart
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+python-docx
+PyPDF2
+python-dotenv
